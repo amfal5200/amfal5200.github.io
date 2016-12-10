@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+
+h1 {font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: #265530;
+}
+
+p {font-family: 'Roboto', sans-serif;;
+}
+#dinner{
+	max-width: 600px;
+	margin: 0 auto;
+}
