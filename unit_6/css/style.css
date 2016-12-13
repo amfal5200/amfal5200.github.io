@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
-/*
-* { margin: 0; }*/
+
+* { margin: 0; 
+padding: 0;
+box-sizing: border-box;
+}
 
 /*body {background: blue;}*/
 
@@ -14,6 +17,10 @@ nav{
 	background-color: #E8C66A;
 }
 
+img{display: block;
+width: 100%;
+}
+
 #two_column {
 	background-color: #FFB7CF;
 	border: 1px black solid;
@@ -25,7 +32,7 @@ nav{
 	border: 1px black solid;
 	padding: 20px;
 	float: left;
-	width: 30%;
+	width: 70%;
 }
 
 #right {
@@ -33,7 +40,7 @@ nav{
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
-	width: 62%;
+	width: 30%;
 
 }
 
@@ -46,14 +53,13 @@ nav{
 	height: 0;
 }
 
-article{
-/*	background-color: #E89C6C;*/
+/* {article background-color: #E89C6C;
 	height: 500px;
 	background-image: url('../images/dinner_pic.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: 50% 50%;
-}
+}*/
 
 footer{background-color: #FF957E;
 }
