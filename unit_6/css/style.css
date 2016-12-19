@@ -8,14 +8,15 @@ box-sizing: border-box;
 /*body {background: blue;}*/
 
 header{
-	background-color: #FFED74;
+	background-color: #F8F8FF;
 	border:	1px black solid;
-	padding: 20px;
+	padding: 40px;
+	font-size: 32px;
 }
 
 nav{
 	background-color: #E8C66A;
-	font-size: 40px;
+	font-size: 20px;
 	padding-top: 5%;
 	padding-right: 5%;
 	padding-bottom: 5%;
