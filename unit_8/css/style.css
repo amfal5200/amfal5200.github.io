@@ -16,7 +16,8 @@ header{
 
 nav{
 	background-color: #E8C66A;
-	font-size: 20px;
+	font-size: 1em;
+	font-family: Arial
 	padding-top: 5%;
 	padding-right: 5%;
 	padding-bottom: 5%;
@@ -51,6 +52,11 @@ width: 100%;
 
 }
 
+#center_statement {
+	text-align: center;
+	padding: 10px;
+}
+
 .clearfix:after{
 	visibility: hidden;
 	display: block;
@@ -68,13 +74,15 @@ width: 100%;
 	background-position: 50% 50%;
 }*/
 
-footer{background-color: #FF957E;
-}
-
 section{background-color: #FFE2BE;
 }
 
 h1 {font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	color: #265530;
+}
+
+h2 {font-family: 'Playfair Display', serif;
 	font-weight: bold;
 	color: #265530;
 }
@@ -84,4 +92,13 @@ p {font-family: 'Roboto', sans-serif;;
 #dinner{
 	max-width: 600px;
 	margin: 0 auto;
+}
+
+footer{
+	background-color: #F8F8FF;
+	border:	1px black solid;
+	padding: 20px;
+	font-size: .8em;
+	padding: 1%;
+
 }
